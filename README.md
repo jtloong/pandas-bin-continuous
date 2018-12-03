@@ -18,4 +18,4 @@ pip install .
 dataframe = pandas_bin_continous.create_features(dataframe, bin_edges, feature_name)
 ```
 
-Where bin_edges is a list of the different bounds of the bins. 
+Where bin_edges is a list of the different bounds of the bins. The bin_edges follows the same usage of bin lists as in [pandas.cut()](https://pandas.pydata.org/pandas-docs/version/0.23.4/generated/pandas.cut.html)
